@@ -5,8 +5,8 @@ public enum EtatBorne {
     DISPONIBLE("Disponible"),
     EN_MAINTENANCE("En Maintenance"),
     HORS_SERVICE("Hors Service"),
-    RESERVEE("Reservée"), // Lorsqu'une réservation acceptée est imminente ou en cours
-    EN_UTILISATION("En Utilisation"); // Activement en charge
+    RESERVEE("Reservée"),
+    EN_UTILISATION("En Utilisation");
 
     private final String libelle;
 

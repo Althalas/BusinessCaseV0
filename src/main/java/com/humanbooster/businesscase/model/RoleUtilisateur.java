@@ -1,9 +1,9 @@
 package com.humanbooster.businesscase.model;
 
 public enum RoleUtilisateur {
-    CLIENT("Client"), // Utilisateur qui réserve des bornes
-    PROPRIETAIRE("Proprietaire"), // Utilisateur qui met à disposition des bornes
-    ADMINISTRATEUR("Administrateur"); // Administrateur du système
+    CLIENT("Client"),
+    PROPRIETAIRE("Proprietaire"),
+    ADMINISTRATEUR("Administrateur");
 
     private final String libelle;
 
