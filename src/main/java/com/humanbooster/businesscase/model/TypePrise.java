@@ -17,7 +17,7 @@ public class TypePrise {
     private Long idTypePrise;
 
     @Column(name = "NomTypePrise", nullable = false, length = 50)
-    private String nomTypePrise; // Ex: "Type 2S"
+    private String nomTypePrise;
 
     @Column(name = "Description", columnDefinition = "TEXT")
     private String description;

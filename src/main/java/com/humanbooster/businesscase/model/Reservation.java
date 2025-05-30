@@ -32,7 +32,7 @@ public class Reservation {
     private BigDecimal montantReelRegle;
 
     @Column(name = "StatutReservation", nullable = false, length = 50)
-    private String statutReservation; // Ex: "EnAttenteConfirmation", "Acceptee", "Terminee" [cite: 9, 11, 15]
+    private String statutReservation;
 
     @Column(name = "DateCreationReservation", nullable = false)
     private LocalDateTime dateCreationReservation = LocalDateTime.now();

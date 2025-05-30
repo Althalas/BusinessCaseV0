@@ -63,7 +63,7 @@ public class Utilisateur {
     private LocalDateTime dateInscription = LocalDateTime.now();
 
     @Column(name = "Role", nullable = false, length = 50)
-    private String role; // Ex: "Client", "Proprietaire", "Administrateur"
+    private String role;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idAdresse")
