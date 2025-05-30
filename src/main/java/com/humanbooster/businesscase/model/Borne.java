@@ -38,7 +38,7 @@ public class Borne {
     private Boolean estMurale;
 
     @Column(name = "EtatBorne", nullable = false, length = 50)
-    private String etatBorne = "Disponible";
+    private EtatBorne etatBorne = EtatBorne.DISPONIBLE;
 
     @Column(name = "TarifHoraire", nullable = false, precision = 10, scale = 2)
     private BigDecimal tarifHoraire;
