@@ -14,5 +14,5 @@ public interface ReservationRepository extends JpaRepository<Reservation, Long> 
     List<Reservation> findByBorneIdBorne(Long idBorne);
     List<Reservation> findByBorneIdBorneAndDateHeureFinAfterAndDateHeureDebutBefore(
             Long idBorne, LocalDateTime dateDebutPlage, LocalDateTime dateFinPlage
-    ); // Pour vérifier les chevauchements
+    );
 }
